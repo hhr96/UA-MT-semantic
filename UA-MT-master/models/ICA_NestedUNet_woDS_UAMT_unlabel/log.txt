@@ -1,0 +1,518 @@
+[20:44:14.581] Namespace(alpha=0.35, arch='NestedUNet', base_lr=0.01, batch_size=4, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=2, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=4, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, sigma=0.1, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[20:44:52.309] Namespace(alpha=0.35, arch='NestedUNet', base_lr=0.01, batch_size=4, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=2, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=4, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, sigma=0.1, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[20:45:09.713] Namespace(alpha=0.35, arch='NestedUNet', base_lr=0.01, batch_size=4, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=2, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=4, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, sigma=0.1, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[21:01:36.259] Namespace(alpha=0.35, arch='NestedUNet', base_lr=0.01, batch_size=4, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=2, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=4, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, sigma=0.1, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[21:22:03.989] Namespace(alpha=0.35, arch='NestedUNet', base_lr=0.01, batch_size=4, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=2, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=4, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, sigma=0.1, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[21:52:15.059] Namespace(alpha=0.35, arch='NestedUNet', base_lr=0.01, batch_size=4, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=2, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=4, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, sigma=0.1, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[22:46:39.184] Namespace(alpha=0.35, arch='NestedUNet', base_lr=0.01, batch_size=4, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=2, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=4, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, sigma=0.1, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[23:21:09.504] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=4, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=2, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[23:21:15.659] 10 itertations per epoch
+[23:22:07.772] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=4, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=2, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[23:22:17.009] 10 itertations per epoch
+[23:23:58.965] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=4, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=2, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[23:34:14.924] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=4, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=2, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[23:36:17.585] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=4, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=2, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[23:37:40.480] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=4, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=2, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[23:40:21.598] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=4, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=2, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[23:41:02.986] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=4, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=2, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[23:43:21.754] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=4, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=2, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[23:47:29.297] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=4, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=2, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[23:47:40.675] 10 itertations per epoch
+[00:06:29.831] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=4, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=2, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[00:06:36.996] 10 itertations per epoch
+[00:08:17.649] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[00:08:26.342] 20 itertations per epoch
+[00:11:41.383] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[00:11:50.236] 20 itertations per epoch
+[01:41:46.383] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[01:41:58.240] 20 itertations per epoch
+[01:46:59.572] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[01:47:07.805] 20 itertations per epoch
+[01:50:53.305] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[01:51:00.422] 20 itertations per epoch
+[01:54:41.345] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[01:54:52.665] 20 itertations per epoch
+[02:00:38.348] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[02:00:45.903] 20 itertations per epoch
+[02:04:22.903] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[02:04:30.371] 20 itertations per epoch
+[02:14:35.738] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[02:14:43.093] 20 itertations per epoch
+[02:20:47.260] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[02:20:59.731] 20 itertations per epoch
+[02:28:12.677] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[02:28:40.600] 20 itertations per epoch
+[02:36:31.304] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[02:36:38.293] 20 itertations per epoch
+[02:39:51.020] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[02:39:59.744] 20 itertations per epoch
+[02:43:40.811] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[02:43:47.654] 20 itertations per epoch
+[02:51:05.678] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[02:51:13.064] 20 itertations per epoch
+[02:58:39.714] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[02:58:47.223] 20 itertations per epoch
+[03:00:09.218] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[03:00:16.421] 20 itertations per epoch
+[03:01:30.501] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[03:01:37.736] 20 itertations per epoch
+[03:04:07.494] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[03:04:15.031] 20 itertations per epoch
+[03:08:47.933] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[03:08:56.213] 20 itertations per epoch
+[03:13:04.459] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[03:13:18.313] 20 itertations per epoch
+[03:14:28.772] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=1, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[03:14:37.477] 20 itertations per epoch
+[03:17:56.126] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[03:18:02.896] 20 itertations per epoch
+[03:18:57.657] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[03:19:04.102] 20 itertations per epoch
+[03:43:19.162] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[03:43:26.419] 20 itertations per epoch
+[03:45:05.897] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=5, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[03:45:13.267] 20 itertations per epoch
+[04:11:13.755] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=100, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[04:11:25.581] 20 itertations per epoch
+[04:28:54.159] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=100, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[04:29:00.829] 20 itertations per epoch
+[04:29:07.874] iteration 1 : loss : 1.005700 cons_dist: 0.092968, loss_weight: 0.000674
+[04:29:49.905] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=100, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[04:30:03.819] 20 itertations per epoch
+[04:30:19.687] iteration 1 : loss : 0.986999 cons_dist: 0.096612, loss_weight: 0.000674
+[04:30:52.564] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=100, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[04:30:59.583] 20 itertations per epoch
+[04:31:11.501] iteration 1 : loss : 0.991117 cons_dist: 0.098367, loss_weight: 0.000674
+[04:31:21.425] iteration 2 : loss : 0.803563 cons_dist: 0.006953, loss_weight: 0.000674
+[04:31:25.975] iteration 3 : loss : 0.686107 cons_dist: 0.017337, loss_weight: 0.000674
+[04:31:28.763] iteration 4 : loss : 0.829804 cons_dist: 0.010598, loss_weight: 0.000674
+[04:31:31.951] iteration 5 : loss : 0.848356 cons_dist: 0.006778, loss_weight: 0.000674
+[04:31:35.746] iteration 6 : loss : 0.748909 cons_dist: 0.006518, loss_weight: 0.000674
+[04:31:41.801] iteration 7 : loss : 0.601564 cons_dist: 0.006869, loss_weight: 0.000674
+[04:31:44.913] iteration 8 : loss : 0.731618 cons_dist: 0.047171, loss_weight: 0.000674
+[04:31:48.441] iteration 9 : loss : 0.915060 cons_dist: 0.034541, loss_weight: 0.000674
+[04:31:51.644] iteration 10 : loss : 0.845913 cons_dist: 0.015836, loss_weight: 0.000674
+[04:31:55.291] iteration 11 : loss : 0.742804 cons_dist: 0.212354, loss_weight: 0.000674
+[04:32:04.779] iteration 12 : loss : 0.626893 cons_dist: 0.008245, loss_weight: 0.000674
+[04:32:14.164] iteration 13 : loss : 0.631698 cons_dist: 0.002966, loss_weight: 0.000674
+[04:32:18.824] iteration 14 : loss : 0.690826 cons_dist: 0.002529, loss_weight: 0.000674
+[04:32:20.816] iteration 15 : loss : 0.553458 cons_dist: 0.002096, loss_weight: 0.000674
+[04:32:31.494] iteration 16 : loss : 0.646448 cons_dist: 0.003047, loss_weight: 0.000674
+[04:32:34.509] iteration 17 : loss : 0.476820 cons_dist: 0.016715, loss_weight: 0.000674
+[04:32:37.803] iteration 18 : loss : 0.536167 cons_dist: 0.021597, loss_weight: 0.000674
+[04:32:45.973] iteration 19 : loss : 0.735505 cons_dist: 0.003756, loss_weight: 0.000674
+[04:33:20.718] iteration 20 : loss : 0.570554 cons_dist: 0.001840, loss_weight: 0.000674
+[04:33:23.362] save model to ../models/ICA_NestedUNet_woDS_UAMT_unlabel/iter_20.pth
+[04:33:48.382] iteration 21 : loss : 0.396742 cons_dist: 0.028922, loss_weight: 0.000674
+[04:34:22.263] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=100, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[04:34:28.635] 20 itertations per epoch
+[04:34:34.382] iteration 1 : loss : 1.029645 cons_dist: 0.093703, loss_weight: 0.000674
+[04:34:38.556] iteration 2 : loss : 0.893896 cons_dist: 0.011709, loss_weight: 0.000674
+[04:34:42.137] iteration 3 : loss : 0.849998 cons_dist: 0.015549, loss_weight: 0.000674
+[04:34:43.959] iteration 4 : loss : 0.845038 cons_dist: 0.011875, loss_weight: 0.000674
+[04:34:48.661] iteration 5 : loss : 0.722040 cons_dist: 0.081345, loss_weight: 0.000674
+[04:34:51.118] iteration 6 : loss : 0.598892 cons_dist: 0.038246, loss_weight: 0.000674
+[04:34:52.783] iteration 7 : loss : 0.506124 cons_dist: 0.065030, loss_weight: 0.000674
+[04:34:54.608] iteration 8 : loss : 0.699435 cons_dist: 0.052155, loss_weight: 0.000674
+[04:34:56.482] iteration 9 : loss : 0.612410 cons_dist: 0.085943, loss_weight: 0.000674
+[04:34:58.446] iteration 10 : loss : 0.575385 cons_dist: 0.037861, loss_weight: 0.000674
+[04:35:00.424] iteration 11 : loss : 0.879912 cons_dist: 0.120854, loss_weight: 0.000674
+[04:35:02.660] iteration 12 : loss : 1.002514 cons_dist: 0.061377, loss_weight: 0.000674
+[04:35:04.819] iteration 13 : loss : 0.873273 cons_dist: 0.068806, loss_weight: 0.000674
+[04:35:08.845] iteration 14 : loss : 0.831065 cons_dist: 0.048750, loss_weight: 0.000674
+[04:35:20.204] iteration 15 : loss : 0.638517 cons_dist: 0.113552, loss_weight: 0.000674
+[04:35:27.965] iteration 16 : loss : 0.863035 cons_dist: 0.082782, loss_weight: 0.000674
+[04:35:31.281] iteration 17 : loss : 0.572933 cons_dist: 0.000000, loss_weight: 0.000674
+[04:35:34.861] iteration 18 : loss : 0.732370 cons_dist: 0.000000, loss_weight: 0.000674
+[04:35:38.224] iteration 19 : loss : 0.724195 cons_dist: 0.000000, loss_weight: 0.000674
+[04:35:51.733] iteration 20 : loss : 0.763301 cons_dist: 0.000000, loss_weight: 0.000674
+[04:37:23.966] save model to ../models/ICA_NestedUNet_woDS_UAMT_unlabel/iter_20.pth
+[04:38:18.180] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=20, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[04:38:40.934] 20 itertations per epoch
+[04:38:44.648] iteration 1 : loss : 1.011158 cons_dist: 0.093544, loss_weight: 0.000674
+[04:38:46.922] iteration 2 : loss : 0.906446 cons_dist: 0.007463, loss_weight: 0.000674
+[04:38:47.543] iteration 3 : loss : 0.811527 cons_dist: 0.013188, loss_weight: 0.000674
+[04:38:48.162] iteration 4 : loss : 0.723525 cons_dist: 0.004503, loss_weight: 0.000674
+[04:38:48.781] iteration 5 : loss : 0.724029 cons_dist: 0.011941, loss_weight: 0.000674
+[04:38:49.402] iteration 6 : loss : 0.678460 cons_dist: 0.031750, loss_weight: 0.000674
+[04:38:50.029] iteration 7 : loss : 0.422152 cons_dist: 0.030381, loss_weight: 0.000674
+[04:38:50.651] iteration 8 : loss : 0.932653 cons_dist: 0.076521, loss_weight: 0.000674
+[04:38:51.269] iteration 9 : loss : 0.616506 cons_dist: 0.067688, loss_weight: 0.000674
+[04:38:51.892] iteration 10 : loss : 0.720454 cons_dist: 0.075127, loss_weight: 0.000674
+[04:38:52.518] iteration 11 : loss : 0.723131 cons_dist: 0.047532, loss_weight: 0.000674
+[04:38:53.141] iteration 12 : loss : 0.501230 cons_dist: 0.042618, loss_weight: 0.000674
+[04:38:53.760] iteration 13 : loss : 0.605430 cons_dist: 0.047840, loss_weight: 0.000674
+[04:38:54.380] iteration 14 : loss : 0.670173 cons_dist: 0.019296, loss_weight: 0.000674
+[04:38:55.000] iteration 15 : loss : 0.431848 cons_dist: 0.022365, loss_weight: 0.000674
+[04:38:55.620] iteration 16 : loss : 0.510188 cons_dist: 0.033657, loss_weight: 0.000674
+[04:38:56.242] iteration 17 : loss : 0.396542 cons_dist: 0.044680, loss_weight: 0.000674
+[04:38:56.864] iteration 18 : loss : 0.477213 cons_dist: 0.010730, loss_weight: 0.000674
+[04:38:57.485] iteration 19 : loss : 0.915884 cons_dist: 0.041608, loss_weight: 0.000674
+[04:38:58.107] iteration 20 : loss : 0.372336 cons_dist: 0.000932, loss_weight: 0.000674
+[04:39:05.357] save model to ../models/ICA_NestedUNet_woDS_UAMT_unlabel/iter_20.pth
+[04:41:02.457] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=20, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[04:41:10.672] 20 itertations per epoch
+[04:41:14.388] iteration 1 : loss : 0.947228 cons_dist: 0.094428, loss_weight: 0.000674
+[04:41:15.009] iteration 2 : loss : 0.850632 cons_dist: 0.007935, loss_weight: 0.000674
+[04:41:15.627] iteration 3 : loss : 0.721791 cons_dist: 0.007734, loss_weight: 0.000674
+[04:41:16.250] iteration 4 : loss : 0.528810 cons_dist: 0.022448, loss_weight: 0.000674
+[04:41:16.877] iteration 5 : loss : 0.712709 cons_dist: 0.032074, loss_weight: 0.000674
+[04:41:17.494] iteration 6 : loss : 0.715248 cons_dist: 0.047135, loss_weight: 0.000674
+[04:41:18.114] iteration 7 : loss : 0.734510 cons_dist: 0.099621, loss_weight: 0.000674
+[04:41:18.735] iteration 8 : loss : 0.614553 cons_dist: 0.046018, loss_weight: 0.000674
+[04:41:19.354] iteration 9 : loss : 0.864743 cons_dist: 0.048458, loss_weight: 0.000674
+[04:41:19.974] iteration 10 : loss : 0.738044 cons_dist: 0.043451, loss_weight: 0.000674
+[04:41:20.593] iteration 11 : loss : 0.840798 cons_dist: 0.053727, loss_weight: 0.000674
+[04:41:21.214] iteration 12 : loss : 0.771275 cons_dist: 0.052304, loss_weight: 0.000674
+[04:41:21.835] iteration 13 : loss : 0.671333 cons_dist: 0.087934, loss_weight: 0.000674
+[04:41:22.453] iteration 14 : loss : 0.676626 cons_dist: 0.101487, loss_weight: 0.000674
+[04:41:23.073] iteration 15 : loss : 0.605621 cons_dist: 0.070404, loss_weight: 0.000674
+[04:41:23.692] iteration 16 : loss : 0.461831 cons_dist: 0.049685, loss_weight: 0.000674
+[04:41:24.313] iteration 17 : loss : 0.733230 cons_dist: 0.030852, loss_weight: 0.000674
+[04:41:24.933] iteration 18 : loss : 0.602099 cons_dist: 0.046642, loss_weight: 0.000674
+[04:41:25.554] iteration 19 : loss : 0.613868 cons_dist: 0.000000, loss_weight: 0.000674
+[04:41:26.173] iteration 20 : loss : 0.421514 cons_dist: 0.000000, loss_weight: 0.000674
+[04:41:55.491] save model to ../models/ICA_NestedUNet_woDS_UAMT_unlabel/iter_20.pth
+[04:45:10.313] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=20, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[04:45:17.855] 20 itertations per epoch
+[04:45:20.348] iteration 1 : loss : 1.029645 cons_dist: 0.093703, loss_weight: 0.000674
+[04:45:20.970] iteration 2 : loss : 0.835773 cons_dist: 0.005422, loss_weight: 0.000674
+[04:45:21.596] iteration 3 : loss : 0.675070 cons_dist: 0.014778, loss_weight: 0.000674
+[04:45:22.213] iteration 4 : loss : 0.703907 cons_dist: 0.047295, loss_weight: 0.000674
+[04:45:22.829] iteration 5 : loss : 1.035251 cons_dist: 0.024932, loss_weight: 0.000674
+[04:45:23.446] iteration 6 : loss : 0.748256 cons_dist: 0.033294, loss_weight: 0.000674
+[04:45:24.060] iteration 7 : loss : 0.639908 cons_dist: 0.056557, loss_weight: 0.000674
+[04:45:24.677] iteration 8 : loss : 0.621213 cons_dist: 0.103946, loss_weight: 0.000674
+[04:45:25.291] iteration 9 : loss : 0.752934 cons_dist: 0.091077, loss_weight: 0.000674
+[04:45:25.908] iteration 10 : loss : 0.890519 cons_dist: 0.041107, loss_weight: 0.000674
+[04:45:26.523] iteration 11 : loss : 0.791122 cons_dist: 0.038624, loss_weight: 0.000674
+[04:45:27.138] iteration 12 : loss : 0.844006 cons_dist: 0.092403, loss_weight: 0.000674
+[04:45:27.754] iteration 13 : loss : 0.783832 cons_dist: 0.044697, loss_weight: 0.000674
+[04:45:28.369] iteration 14 : loss : 0.673484 cons_dist: 0.025670, loss_weight: 0.000674
+[04:45:28.985] iteration 15 : loss : 0.646390 cons_dist: 0.000000, loss_weight: 0.000674
+[04:45:29.601] iteration 16 : loss : 0.721554 cons_dist: 0.031353, loss_weight: 0.000674
+[04:45:30.220] iteration 17 : loss : 0.414190 cons_dist: 0.051454, loss_weight: 0.000674
+[04:45:30.838] iteration 18 : loss : 0.461724 cons_dist: 0.000000, loss_weight: 0.000674
+[04:45:31.452] iteration 19 : loss : 0.520911 cons_dist: 0.000000, loss_weight: 0.000674
+[04:45:32.070] iteration 20 : loss : 0.515166 cons_dist: 0.000000, loss_weight: 0.000674
+[04:45:35.220] save model to ../models/ICA_NestedUNet_woDS_UAMT_unlabel/iter_20.pth
+[05:01:38.295] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=20, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[05:01:45.090] 20 itertations per epoch
+[05:01:47.381] iteration 1 : loss : 0.978142 cons_dist: 0.094961, loss_weight: 0.000674
+[05:01:48.005] iteration 2 : loss : 0.929555 cons_dist: 0.018010, loss_weight: 0.000674
+[05:01:48.624] iteration 3 : loss : 0.651796 cons_dist: 0.020318, loss_weight: 0.000674
+[05:01:49.249] iteration 4 : loss : 0.718476 cons_dist: 0.010220, loss_weight: 0.000674
+[05:01:49.878] iteration 5 : loss : 0.777325 cons_dist: 0.031056, loss_weight: 0.000674
+[05:01:50.499] iteration 6 : loss : 0.664395 cons_dist: 0.070333, loss_weight: 0.000674
+[05:01:51.118] iteration 7 : loss : 0.524886 cons_dist: 0.120840, loss_weight: 0.000674
+[05:01:51.738] iteration 8 : loss : 0.420537 cons_dist: 0.251897, loss_weight: 0.000674
+[05:01:52.354] iteration 9 : loss : 0.658559 cons_dist: 0.065644, loss_weight: 0.000674
+[05:01:52.973] iteration 10 : loss : 0.666731 cons_dist: 0.032664, loss_weight: 0.000674
+[05:01:53.591] iteration 11 : loss : 0.946426 cons_dist: 0.041980, loss_weight: 0.000674
+[05:01:54.209] iteration 12 : loss : 0.793169 cons_dist: 0.010129, loss_weight: 0.000674
+[05:01:54.826] iteration 13 : loss : 0.364711 cons_dist: 0.008169, loss_weight: 0.000674
+[05:01:55.444] iteration 14 : loss : 0.698178 cons_dist: 0.009337, loss_weight: 0.000674
+[05:01:56.062] iteration 15 : loss : 0.443049 cons_dist: 0.004561, loss_weight: 0.000674
+[05:01:56.681] iteration 16 : loss : 0.716936 cons_dist: 0.001808, loss_weight: 0.000674
+[05:01:57.298] iteration 17 : loss : 0.569534 cons_dist: 0.004479, loss_weight: 0.000674
+[05:01:57.915] iteration 18 : loss : 0.927829 cons_dist: 0.003482, loss_weight: 0.000674
+[05:01:58.534] iteration 19 : loss : 0.635736 cons_dist: 0.001389, loss_weight: 0.000674
+[05:01:59.154] iteration 20 : loss : 0.719205 cons_dist: 0.005231, loss_weight: 0.000674
+[05:03:29.552] save model to ../models/ICA_NestedUNet_woDS_UAMT_unlabel/iter_20.pth
+[05:04:33.886] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=20, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[05:04:45.075] 20 itertations per epoch
+[05:04:47.159] iteration 1 : loss : 0.986999 cons_dist: 0.096612, loss_weight: 0.000674
+[05:04:47.781] iteration 2 : loss : 0.843208 cons_dist: 0.004096, loss_weight: 0.000674
+[05:04:48.400] iteration 3 : loss : 0.811707 cons_dist: 0.013020, loss_weight: 0.000674
+[05:04:49.025] iteration 4 : loss : 0.854777 cons_dist: 0.020337, loss_weight: 0.000674
+[05:04:49.647] iteration 5 : loss : 0.851107 cons_dist: 0.024797, loss_weight: 0.000674
+[05:04:50.265] iteration 6 : loss : 0.644393 cons_dist: 0.092936, loss_weight: 0.000674
+[05:04:50.883] iteration 7 : loss : 0.765334 cons_dist: 0.142356, loss_weight: 0.000674
+[05:04:51.500] iteration 8 : loss : 0.501258 cons_dist: 0.161424, loss_weight: 0.000674
+[05:04:52.119] iteration 9 : loss : 0.620793 cons_dist: 0.059546, loss_weight: 0.000674
+[05:04:52.738] iteration 10 : loss : 0.664142 cons_dist: 0.162030, loss_weight: 0.000674
+[05:04:53.356] iteration 11 : loss : 0.794566 cons_dist: 0.014127, loss_weight: 0.000674
+[05:04:53.975] iteration 12 : loss : 0.461350 cons_dist: 0.024764, loss_weight: 0.000674
+[05:04:54.592] iteration 13 : loss : 0.348913 cons_dist: 0.013115, loss_weight: 0.000674
+[05:04:55.207] iteration 14 : loss : 0.728522 cons_dist: 0.026625, loss_weight: 0.000674
+[05:04:55.822] iteration 15 : loss : 0.422480 cons_dist: 0.004663, loss_weight: 0.000674
+[05:04:56.437] iteration 16 : loss : 0.419600 cons_dist: 0.050222, loss_weight: 0.000674
+[05:04:57.054] iteration 17 : loss : 0.575174 cons_dist: 0.028489, loss_weight: 0.000674
+[05:04:57.669] iteration 18 : loss : 0.548276 cons_dist: 0.025390, loss_weight: 0.000674
+[05:04:58.286] iteration 19 : loss : 0.693317 cons_dist: 0.125666, loss_weight: 0.000674
+[05:04:58.903] iteration 20 : loss : 0.626875 cons_dist: 0.155665, loss_weight: 0.000674
+[05:06:44.097] save model to ../models/ICA_NestedUNet_woDS_UAMT_unlabel/iter_20.pth
+[05:07:02.820] iteration 21 : loss : 0.547436 cons_dist: 0.126789, loss_weight: 0.000674
+[05:07:03.444] iteration 22 : loss : 0.689365 cons_dist: 0.049670, loss_weight: 0.000674
+[05:07:04.066] iteration 23 : loss : 0.555790 cons_dist: 0.036316, loss_weight: 0.000674
+[05:07:04.693] iteration 24 : loss : 0.487774 cons_dist: 0.017120, loss_weight: 0.000674
+[05:07:05.313] iteration 25 : loss : 0.472407 cons_dist: 0.025970, loss_weight: 0.000674
+[05:07:05.938] iteration 26 : loss : 0.390148 cons_dist: 0.009987, loss_weight: 0.000674
+[05:07:06.567] iteration 27 : loss : 0.761714 cons_dist: 0.017251, loss_weight: 0.000674
+[05:07:07.196] iteration 28 : loss : 0.436704 cons_dist: 0.006018, loss_weight: 0.000674
+[05:07:07.824] iteration 29 : loss : 0.385349 cons_dist: 0.012367, loss_weight: 0.000674
+[05:07:08.451] iteration 30 : loss : 0.440990 cons_dist: 0.019828, loss_weight: 0.000674
+[05:07:09.072] iteration 31 : loss : 0.545772 cons_dist: 0.015685, loss_weight: 0.000674
+[05:07:09.699] iteration 32 : loss : 0.700672 cons_dist: 0.023528, loss_weight: 0.000674
+[05:07:10.328] iteration 33 : loss : 0.877832 cons_dist: 0.044867, loss_weight: 0.000674
+[05:07:10.956] iteration 34 : loss : 0.564152 cons_dist: 0.025058, loss_weight: 0.000674
+[05:07:11.579] iteration 35 : loss : 0.736152 cons_dist: 0.015492, loss_weight: 0.000674
+[05:07:12.205] iteration 36 : loss : 0.654477 cons_dist: 0.027241, loss_weight: 0.000674
+[05:07:12.834] iteration 37 : loss : 0.561983 cons_dist: 0.016358, loss_weight: 0.000674
+[05:07:13.454] iteration 38 : loss : 0.687175 cons_dist: 0.019650, loss_weight: 0.000674
+[05:07:14.087] iteration 39 : loss : 0.536907 cons_dist: 0.021134, loss_weight: 0.000674
+[05:07:14.716] iteration 40 : loss : 0.498106 cons_dist: 0.018628, loss_weight: 0.000674
+[05:18:39.464] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=20, scheduler='ConstantLR', seed=1337, supervised_loss='Diceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[05:19:48.988] 20 itertations per epoch
+[05:27:59.907] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=20, scheduler='ConstantLR', seed=1337, supervised_loss='BCEDiceloss', val_set_ratio=0.1, weight_decay=0.0001)
+[05:28:49.939] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=20, scheduler='ConstantLR', seed=1337, supervised_loss='BCEDiceLoss', val_set_ratio=0.1, weight_decay=0.0001)
+[05:28:59.596] 20 itertations per epoch
+[17:18:08.295] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, erergy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=20, scheduler='ConstantLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[17:18:26.803] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=20, scheduler='ConstantLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[17:19:13.278] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=20, scheduler='ConstantLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[17:19:44.456] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='Adam', patience=2, sample_freq=20, scheduler='ConstantLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[17:19:59.970] 20 itertations per epoch
+[16:00:49.582] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='ConstantLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[16:02:12.087] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='ConstantLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[16:03:08.191] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='ConstantLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[01:25:34.660] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='ConstantLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[01:26:08.103] 20 itertations per epoch
+[01:48:50.901] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[01:59:43.135] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[01:59:52.447] 20 itertations per epoch
+[02:00:18.667] iteration 1 : loss : 2.471315 cons_dist: 0.054805, loss_weight: 0.000674
+[02:00:29.864] iteration 2 : loss : 1.288018 cons_dist: 0.122071, loss_weight: 0.000674
+[02:00:32.036] iteration 3 : loss : 1.697770 cons_dist: 0.526340, loss_weight: 0.000674
+[02:00:41.198] iteration 4 : loss : 1.602795 cons_dist: 0.213829, loss_weight: 0.000674
+[02:00:43.118] iteration 5 : loss : 2.286460 cons_dist: 0.000000, loss_weight: 0.000674
+[02:00:44.389] iteration 6 : loss : 1.535632 cons_dist: 0.000000, loss_weight: 0.000674
+[02:00:45.790] iteration 7 : loss : 1.885965 cons_dist: 0.000000, loss_weight: 0.000674
+[02:00:47.154] iteration 8 : loss : 1.288139 cons_dist: 0.000000, loss_weight: 0.000674
+[02:00:48.521] iteration 9 : loss : 1.871268 cons_dist: 0.000000, loss_weight: 0.000674
+[02:00:49.895] iteration 10 : loss : 2.547715 cons_dist: 0.000000, loss_weight: 0.000674
+[02:00:51.242] iteration 11 : loss : 1.834961 cons_dist: 0.000000, loss_weight: 0.000674
+[02:00:52.586] iteration 12 : loss : 1.042980 cons_dist: 0.000000, loss_weight: 0.000674
+[02:00:53.982] iteration 13 : loss : 1.359578 cons_dist: 0.000000, loss_weight: 0.000674
+[02:00:55.378] iteration 14 : loss : 1.389174 cons_dist: 0.000000, loss_weight: 0.000674
+[02:00:56.813] iteration 15 : loss : 2.053478 cons_dist: 0.000000, loss_weight: 0.000674
+[02:00:58.267] iteration 16 : loss : 0.989115 cons_dist: 0.000000, loss_weight: 0.000674
+[02:00:59.750] iteration 17 : loss : 0.955182 cons_dist: 0.000000, loss_weight: 0.000674
+[02:01:01.208] iteration 18 : loss : 1.948508 cons_dist: 0.000000, loss_weight: 0.000674
+[02:01:02.572] iteration 19 : loss : 1.347980 cons_dist: 0.000000, loss_weight: 0.000674
+[02:01:04.107] iteration 20 : loss : 1.086515 cons_dist: 0.000000, loss_weight: 0.000674
+[02:01:05.995] save model to ../models/ICA_NestedUNet_woDS_UAMT_unlabel/iter_20.pth
+[02:03:19.060] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[02:03:29.215] 20 itertations per epoch
+[02:03:38.121] iteration 1 : loss : 2.682415 cons_dist: 0.055379, loss_weight: 0.000674
+[02:06:06.316] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[02:06:16.753] 20 itertations per epoch
+[18:29:48.338] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[18:30:18.935] 30 itertations per epoch
+[18:33:58.685] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=1, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[18:35:48.990] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[18:35:58.291] 30 itertations per epoch
+[18:36:47.506] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[18:36:57.414] 30 itertations per epoch
+[18:37:12.295] iteration 1 : loss : 2.335114 cons_dist: 0.031742, loss_weight: 0.000674
+[18:37:40.618] iteration 2 : loss : 2.526455 cons_dist: 0.673837, loss_weight: 0.000674
+[18:37:41.279] iteration 3 : loss : 1.791200 cons_dist: 0.000000, loss_weight: 0.000674
+[18:37:41.955] iteration 4 : loss : 1.998639 cons_dist: 0.430345, loss_weight: 0.000674
+[18:37:42.686] iteration 5 : loss : 1.948534 cons_dist: 0.020925, loss_weight: 0.000674
+[18:37:43.374] iteration 6 : loss : 1.898599 cons_dist: 0.000000, loss_weight: 0.000674
+[18:37:44.037] iteration 7 : loss : 1.839488 cons_dist: 0.106766, loss_weight: 0.000674
+[18:37:44.691] iteration 8 : loss : 1.359578 cons_dist: 0.000000, loss_weight: 0.000674
+[18:37:45.340] iteration 9 : loss : 0.955182 cons_dist: 0.000000, loss_weight: 0.000674
+[18:37:45.996] iteration 10 : loss : 1.444269 cons_dist: 0.000000, loss_weight: 0.000674
+[18:37:46.636] iteration 11 : loss : 1.535621 cons_dist: 0.000000, loss_weight: 0.000674
+[18:37:47.289] iteration 12 : loss : 1.288139 cons_dist: 0.000000, loss_weight: 0.000674
+[18:37:47.927] iteration 13 : loss : 1.834961 cons_dist: 0.000000, loss_weight: 0.000674
+[18:37:48.588] iteration 14 : loss : 2.683975 cons_dist: 0.276382, loss_weight: 0.000674
+[18:37:49.221] iteration 15 : loss : 2.528486 cons_dist: 0.000000, loss_weight: 0.000674
+[18:37:49.883] iteration 16 : loss : 1.871399 cons_dist: 0.000000, loss_weight: 0.000674
+[18:37:50.548] iteration 17 : loss : 2.037328 cons_dist: 0.000000, loss_weight: 0.000674
+[18:37:51.204] iteration 18 : loss : 1.533814 cons_dist: 0.000000, loss_weight: 0.000674
+[18:37:51.852] iteration 19 : loss : 1.397923 cons_dist: 0.035660, loss_weight: 0.000674
+[18:37:52.495] iteration 20 : loss : 1.885965 cons_dist: 0.000000, loss_weight: 0.000674
+[18:37:53.128] iteration 21 : loss : 1.389174 cons_dist: 0.000000, loss_weight: 0.000674
+[18:37:53.805] iteration 22 : loss : 1.347980 cons_dist: 0.000000, loss_weight: 0.000674
+[18:37:54.458] iteration 23 : loss : 0.989668 cons_dist: 0.114750, loss_weight: 0.000674
+[18:37:55.112] iteration 24 : loss : 2.197243 cons_dist: 0.030640, loss_weight: 0.000674
+[18:37:55.751] iteration 25 : loss : 2.592153 cons_dist: 0.006390, loss_weight: 0.000674
+[18:37:56.402] iteration 26 : loss : 2.052943 cons_dist: 0.018000, loss_weight: 0.000674
+[18:37:57.050] iteration 27 : loss : 1.093369 cons_dist: 0.000000, loss_weight: 0.000674
+[18:37:57.716] iteration 28 : loss : 2.544405 cons_dist: 0.018993, loss_weight: 0.000674
+[18:37:58.366] iteration 29 : loss : 2.547653 cons_dist: 0.000000, loss_weight: 0.000674
+[18:37:59.001] iteration 30 : loss : 2.214769 cons_dist: 0.000130, loss_weight: 0.000674
+[18:50:39.375] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[18:51:32.308] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[18:51:40.928] 30 itertations per epoch
+[18:51:43.599] iteration 1 : loss : 2.858109 cons_dist: 0.030501, loss_weight: 0.000674
+[18:51:44.228] iteration 2 : loss : 1.837790 cons_dist: 0.515939, loss_weight: 0.000674
+[18:51:44.848] iteration 3 : loss : 2.605360 cons_dist: 0.114292, loss_weight: 0.000674
+[18:51:45.479] iteration 4 : loss : 1.924711 cons_dist: 0.179464, loss_weight: 0.000674
+[18:51:46.102] iteration 5 : loss : 1.843613 cons_dist: 0.181188, loss_weight: 0.000674
+[18:51:46.722] iteration 6 : loss : 2.350026 cons_dist: 0.099287, loss_weight: 0.000674
+[18:51:47.338] iteration 7 : loss : 2.130296 cons_dist: 0.379079, loss_weight: 0.000674
+[18:51:47.955] iteration 8 : loss : 1.480053 cons_dist: 0.090199, loss_weight: 0.000674
+[18:51:48.575] iteration 9 : loss : 2.765867 cons_dist: 0.001321, loss_weight: 0.000674
+[18:51:49.197] iteration 10 : loss : 2.074023 cons_dist: 0.124384, loss_weight: 0.000674
+[18:51:49.815] iteration 11 : loss : 1.610229 cons_dist: 0.097848, loss_weight: 0.000674
+[18:51:50.433] iteration 12 : loss : 2.409480 cons_dist: 0.115945, loss_weight: 0.000674
+[18:51:51.050] iteration 13 : loss : 1.347425 cons_dist: 0.388375, loss_weight: 0.000674
+[18:51:51.670] iteration 14 : loss : 2.514276 cons_dist: 0.680776, loss_weight: 0.000674
+[18:51:52.291] iteration 15 : loss : 3.309175 cons_dist: 0.295043, loss_weight: 0.000674
+[18:51:52.911] iteration 16 : loss : 1.952032 cons_dist: 0.394203, loss_weight: 0.000674
+[18:51:53.534] iteration 17 : loss : 2.866098 cons_dist: 0.141154, loss_weight: 0.000674
+[18:51:54.152] iteration 18 : loss : 1.797240 cons_dist: 0.167546, loss_weight: 0.000674
+[18:51:54.772] iteration 19 : loss : 1.082220 cons_dist: 0.209088, loss_weight: 0.000674
+[18:51:55.392] iteration 20 : loss : 2.626114 cons_dist: 0.160438, loss_weight: 0.000674
+[18:51:56.012] iteration 21 : loss : 2.115616 cons_dist: 0.257194, loss_weight: 0.000674
+[18:51:56.638] iteration 22 : loss : 2.060528 cons_dist: 0.112501, loss_weight: 0.000674
+[18:51:57.257] iteration 23 : loss : 1.839919 cons_dist: 0.745630, loss_weight: 0.000674
+[18:51:57.875] iteration 24 : loss : 2.104206 cons_dist: 0.369164, loss_weight: 0.000674
+[18:51:58.496] iteration 25 : loss : 2.541370 cons_dist: 0.306398, loss_weight: 0.000674
+[18:51:59.117] iteration 26 : loss : 2.943860 cons_dist: 0.604676, loss_weight: 0.000674
+[18:51:59.738] iteration 27 : loss : 3.364187 cons_dist: 0.186131, loss_weight: 0.000674
+[18:52:00.360] iteration 28 : loss : 1.288155 cons_dist: 0.024456, loss_weight: 0.000674
+[18:52:00.984] iteration 29 : loss : 1.609656 cons_dist: 0.284273, loss_weight: 0.000674
+[18:52:01.604] iteration 30 : loss : 2.552865 cons_dist: 0.094011, loss_weight: 0.000674
+[01:01:40.145] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[01:02:07.254] 30 itertations per epoch
+[01:02:18.635] iteration 1 : loss : 1.786286 cons_dist: 0.028667, loss_weight: 0.000674
+[01:02:19.537] iteration 2 : loss : 1.398085 cons_dist: 0.691247, loss_weight: 0.000674
+[01:02:20.203] iteration 3 : loss : 1.672399 cons_dist: 0.137463, loss_weight: 0.000674
+[01:02:20.851] iteration 4 : loss : 3.291711 cons_dist: 0.338985, loss_weight: 0.000674
+[01:02:21.509] iteration 5 : loss : 1.787627 cons_dist: 0.114408, loss_weight: 0.000674
+[01:02:22.157] iteration 6 : loss : 1.885962 cons_dist: 0.007905, loss_weight: 0.000674
+[01:02:22.810] iteration 7 : loss : 1.871268 cons_dist: 0.000230, loss_weight: 0.000674
+[01:02:23.471] iteration 8 : loss : 1.402905 cons_dist: 0.115919, loss_weight: 0.000674
+[01:02:24.157] iteration 9 : loss : 2.418190 cons_dist: 0.353746, loss_weight: 0.000674
+[01:02:24.820] iteration 10 : loss : 0.955362 cons_dist: 0.267257, loss_weight: 0.000674
+[01:02:25.489] iteration 11 : loss : 2.528837 cons_dist: 0.520793, loss_weight: 0.000674
+[01:02:26.142] iteration 12 : loss : 1.824521 cons_dist: 0.484256, loss_weight: 0.000674
+[01:02:26.793] iteration 13 : loss : 2.523700 cons_dist: 0.607761, loss_weight: 0.000674
+[01:02:27.455] iteration 14 : loss : 2.592485 cons_dist: 0.500371, loss_weight: 0.000674
+[01:02:28.092] iteration 15 : loss : 2.135199 cons_dist: 0.349513, loss_weight: 0.000674
+[01:02:28.764] iteration 16 : loss : 2.378122 cons_dist: 0.362023, loss_weight: 0.000674
+[01:02:29.410] iteration 17 : loss : 2.512486 cons_dist: 0.095683, loss_weight: 0.000674
+[01:02:30.058] iteration 18 : loss : 2.801627 cons_dist: 0.661094, loss_weight: 0.000674
+[01:02:30.703] iteration 19 : loss : 2.766895 cons_dist: 0.184459, loss_weight: 0.000674
+[01:02:31.337] iteration 20 : loss : 1.595276 cons_dist: 0.685810, loss_weight: 0.000674
+[01:02:31.990] iteration 21 : loss : 2.110099 cons_dist: 0.015966, loss_weight: 0.000674
+[01:02:32.644] iteration 22 : loss : 2.241887 cons_dist: 0.554515, loss_weight: 0.000674
+[01:02:33.294] iteration 23 : loss : 1.359745 cons_dist: 0.111933, loss_weight: 0.000674
+[01:02:33.937] iteration 24 : loss : 3.007591 cons_dist: 0.027406, loss_weight: 0.000674
+[01:02:34.589] iteration 25 : loss : 1.519232 cons_dist: 0.026059, loss_weight: 0.000674
+[01:02:35.236] iteration 26 : loss : 1.635920 cons_dist: 0.436414, loss_weight: 0.000674
+[01:02:35.896] iteration 27 : loss : 1.954235 cons_dist: 0.192336, loss_weight: 0.000674
+[01:02:36.552] iteration 28 : loss : 1.839562 cons_dist: 0.215885, loss_weight: 0.000674
+[01:02:37.192] iteration 29 : loss : 1.583031 cons_dist: 0.178529, loss_weight: 0.000674
+[01:02:37.843] iteration 30 : loss : 2.165884 cons_dist: 0.339241, loss_weight: 0.000674
+[01:14:29.816] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[01:14:39.802] 30 itertations per epoch
+[01:14:42.784] iteration 1 : loss : 1.786286 cons_dist: 0.028667, loss_weight: 0.000674
+[01:14:43.412] iteration 2 : loss : 2.570630 cons_dist: 0.691238, loss_weight: 0.000674
+[01:14:44.037] iteration 3 : loss : 2.338153 cons_dist: 0.000000, loss_weight: 0.000674
+[01:14:44.661] iteration 4 : loss : 1.800543 cons_dist: 0.082351, loss_weight: 0.000674
+[01:14:45.283] iteration 5 : loss : 2.513440 cons_dist: 0.243146, loss_weight: 0.000674
+[01:14:45.900] iteration 6 : loss : 2.412782 cons_dist: 0.772739, loss_weight: 0.000674
+[01:14:46.520] iteration 7 : loss : 2.114165 cons_dist: 0.526245, loss_weight: 0.000674
+[01:14:47.137] iteration 8 : loss : 2.334996 cons_dist: 0.218004, loss_weight: 0.000674
+[01:14:47.757] iteration 9 : loss : 2.738505 cons_dist: 0.000000, loss_weight: 0.000674
+[01:14:48.380] iteration 10 : loss : 1.370959 cons_dist: 0.243090, loss_weight: 0.000674
+[01:14:48.997] iteration 11 : loss : 2.592222 cons_dist: 0.108923, loss_weight: 0.000674
+[01:14:49.618] iteration 12 : loss : 1.835256 cons_dist: 0.437697, loss_weight: 0.000674
+[01:14:50.239] iteration 13 : loss : 1.143871 cons_dist: 0.042667, loss_weight: 0.000674
+[01:14:50.856] iteration 14 : loss : 1.629336 cons_dist: 0.000000, loss_weight: 0.000674
+[01:14:51.476] iteration 15 : loss : 2.072433 cons_dist: 0.000804, loss_weight: 0.000674
+[01:14:52.098] iteration 16 : loss : 1.368446 cons_dist: 0.001612, loss_weight: 0.000674
+[01:14:52.721] iteration 17 : loss : 2.576524 cons_dist: 0.006674, loss_weight: 0.000674
+[01:14:53.344] iteration 18 : loss : 1.906952 cons_dist: 0.054518, loss_weight: 0.000674
+[01:14:53.965] iteration 19 : loss : 0.955176 cons_dist: 0.337682, loss_weight: 0.000674
+[01:14:54.589] iteration 20 : loss : 1.718259 cons_dist: 0.266171, loss_weight: 0.000674
+[01:14:55.208] iteration 21 : loss : 2.286460 cons_dist: 0.000000, loss_weight: 0.000674
+[01:14:55.831] iteration 22 : loss : 2.202771 cons_dist: 0.003419, loss_weight: 0.000674
+[01:14:56.453] iteration 23 : loss : 2.077269 cons_dist: 0.858657, loss_weight: 0.000674
+[01:14:57.072] iteration 24 : loss : 2.527732 cons_dist: 0.886749, loss_weight: 0.000674
+[01:14:57.696] iteration 25 : loss : 1.364987 cons_dist: 0.000000, loss_weight: 0.000674
+[01:14:58.315] iteration 26 : loss : 1.889307 cons_dist: 0.031710, loss_weight: 0.000674
+[01:14:58.937] iteration 27 : loss : 1.777122 cons_dist: 0.136087, loss_weight: 0.000674
+[01:14:59.563] iteration 28 : loss : 2.048546 cons_dist: 0.000000, loss_weight: 0.000674
+[01:15:00.186] iteration 29 : loss : 2.000794 cons_dist: 0.012650, loss_weight: 0.000674
+[01:15:00.807] iteration 30 : loss : 1.445390 cons_dist: 0.002557, loss_weight: 0.000674
+[01:18:38.975] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[01:19:16.201] 30 itertations per epoch
+[01:19:23.194] iteration 1 : loss : 2.795447 cons_dist: 0.029370, loss_weight: 0.000674
+[01:19:23.816] iteration 2 : loss : 2.037053 cons_dist: 0.755672, loss_weight: 0.000674
+[01:19:24.433] iteration 3 : loss : 2.277959 cons_dist: 0.084077, loss_weight: 0.000674
+[01:19:25.052] iteration 4 : loss : 1.986124 cons_dist: 0.661325, loss_weight: 0.000674
+[01:19:25.676] iteration 5 : loss : 1.523576 cons_dist: 0.229571, loss_weight: 0.000674
+[01:19:26.291] iteration 6 : loss : 1.949544 cons_dist: 0.246646, loss_weight: 0.000674
+[01:19:26.906] iteration 7 : loss : 2.066533 cons_dist: 0.774842, loss_weight: 0.000674
+[01:19:27.521] iteration 8 : loss : 1.535621 cons_dist: 0.000000, loss_weight: 0.000674
+[01:19:28.140] iteration 9 : loss : 1.915307 cons_dist: 0.000000, loss_weight: 0.000674
+[01:19:28.757] iteration 10 : loss : 2.197223 cons_dist: 0.000000, loss_weight: 0.000674
+[01:19:29.371] iteration 11 : loss : 1.549114 cons_dist: 0.000000, loss_weight: 0.000674
+[01:19:29.992] iteration 12 : loss : 1.792555 cons_dist: 0.000000, loss_weight: 0.000674
+[01:19:30.610] iteration 13 : loss : 2.528486 cons_dist: 0.000000, loss_weight: 0.000674
+[01:19:31.226] iteration 14 : loss : 2.683842 cons_dist: 0.077713, loss_weight: 0.000674
+[01:19:31.844] iteration 15 : loss : 1.839417 cons_dist: 0.000000, loss_weight: 0.000674
+[01:19:32.463] iteration 16 : loss : 2.293779 cons_dist: 0.000000, loss_weight: 0.000674
+[01:19:33.084] iteration 17 : loss : 1.948520 cons_dist: 0.000000, loss_weight: 0.000674
+[01:19:33.710] iteration 18 : loss : 1.834957 cons_dist: 0.000000, loss_weight: 0.000674
+[01:19:34.327] iteration 19 : loss : 2.052942 cons_dist: 0.015423, loss_weight: 0.000674
+[01:19:34.948] iteration 20 : loss : 1.459837 cons_dist: 0.000000, loss_weight: 0.000674
+[01:19:35.568] iteration 21 : loss : 1.359578 cons_dist: 0.000000, loss_weight: 0.000674
+[01:19:36.190] iteration 22 : loss : 1.389207 cons_dist: 0.002876, loss_weight: 0.000674
+[01:19:36.809] iteration 23 : loss : 0.965752 cons_dist: 0.039424, loss_weight: 0.000674
+[01:19:37.426] iteration 24 : loss : 2.037358 cons_dist: 0.043254, loss_weight: 0.000674
+[01:19:38.045] iteration 25 : loss : 1.348046 cons_dist: 0.062500, loss_weight: 0.000674
+[01:19:38.664] iteration 26 : loss : 1.093283 cons_dist: 0.000000, loss_weight: 0.000674
+[01:19:39.286] iteration 27 : loss : 2.214769 cons_dist: 0.000000, loss_weight: 0.000674
+[01:19:39.904] iteration 28 : loss : 1.335154 cons_dist: 0.000000, loss_weight: 0.000674
+[01:19:40.527] iteration 29 : loss : 2.547685 cons_dist: 0.047859, loss_weight: 0.000674
+[01:19:41.146] iteration 30 : loss : 2.598846 cons_dist: 0.000000, loss_weight: 0.000674
+[22:46:55.721] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[22:47:09.749] 30 itertations per epoch
+[22:47:14.282] iteration 1 : loss : 2.795447 cons_dist: 0.029370, loss_weight: 0.000674
+[22:47:17.553] iteration 2 : loss : 2.840829 cons_dist: 0.755417, loss_weight: 0.000674
+[22:47:18.195] iteration 3 : loss : 1.959120 cons_dist: 0.000000, loss_weight: 0.000674
+[22:47:18.848] iteration 4 : loss : 2.422301 cons_dist: 0.444068, loss_weight: 0.000674
+[22:47:19.476] iteration 5 : loss : 1.724731 cons_dist: 0.950204, loss_weight: 0.000674
+[22:47:20.117] iteration 6 : loss : 2.520145 cons_dist: 0.143591, loss_weight: 0.000674
+[22:47:20.770] iteration 7 : loss : 2.191477 cons_dist: 0.318533, loss_weight: 0.000674
+[22:47:21.408] iteration 8 : loss : 1.454766 cons_dist: 0.066419, loss_weight: 0.000674
+[22:47:22.065] iteration 9 : loss : 1.212345 cons_dist: 0.117785, loss_weight: 0.000674
+[22:47:22.723] iteration 10 : loss : 2.053504 cons_dist: 0.039691, loss_weight: 0.000674
+[22:47:23.390] iteration 11 : loss : 1.554289 cons_dist: 0.032742, loss_weight: 0.000674
+[22:47:24.029] iteration 12 : loss : 2.254472 cons_dist: 0.021828, loss_weight: 0.000674
+[22:47:24.661] iteration 13 : loss : 1.367949 cons_dist: 0.022251, loss_weight: 0.000674
+[22:47:25.307] iteration 14 : loss : 2.600818 cons_dist: 0.978807, loss_weight: 0.000674
+[22:47:25.948] iteration 15 : loss : 2.683789 cons_dist: 0.000000, loss_weight: 0.000674
+[22:47:26.606] iteration 16 : loss : 1.548070 cons_dist: 0.000000, loss_weight: 0.000674
+[22:47:27.258] iteration 17 : loss : 1.839417 cons_dist: 0.000000, loss_weight: 0.000674
+[22:47:27.905] iteration 18 : loss : 1.534500 cons_dist: 0.002716, loss_weight: 0.000674
+[22:47:37.349] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[22:48:05.759] 30 itertations per epoch
+[07:32:25.983] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[07:32:52.903] 30 itertations per epoch
+[22:59:12.252] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[19:10:48.968] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[19:11:20.506] 42 itertations per epoch
+[21:37:57.896] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[21:38:26.093] 42 itertations per epoch
+[21:38:42.052] iteration 1 : loss : 3.351177 cons_dist: 0.040751, loss_weight: 0.000674
+[21:39:21.263] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[21:39:32.416] 42 itertations per epoch
+[21:39:35.870] iteration 1 : loss : 2.859843 cons_dist: 0.044006, loss_weight: 0.000674
+[21:40:02.508] iteration 2 : loss : 1.995965 cons_dist: 0.189368, loss_weight: 0.000674
+[21:40:54.834] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[21:41:04.581] 42 itertations per epoch
+[21:49:22.853] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[21:49:32.189] 42 itertations per epoch
+[21:50:04.117] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='BCEDiceLoss', val_set_ratio=0.1, weight_decay=0.0001)
+[21:50:16.872] 42 itertations per epoch
+[21:51:36.265] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='BCEDiceLoss', val_set_ratio=0.1, weight_decay=0.0001)
+[21:51:47.735] 42 itertations per epoch
+[21:52:39.990] Namespace(arch='NestedUNet', base_lr=0.01, batch_size=2, beta1=0.9, beta2=0.999, consistency=0.1, consistency_rampup=40.0, consistency_type='mse', dataset='ICA', deep_supervision=False, deterministic=1, early_stopping=-1, ema_decay=0.99, energy_alpha=0.35, energy_sigma=0.1, factor=0.1, gamma=0.6666666666666666, gpu='0', img_ext='.png', input_channels=3, input_h=512, input_w=512, labeled_bs=1, mask_channels=1, mask_ext='.png', max_iterations=6000, milestones='1,2', min_lr=1e-08, momentum=0.9, name='ICA_NestedUNet_woDS_UAMT_unlabel', nesterov=False, num_classes=2, num_workers=0, optimizer='SGD', patience=2, sample_freq=20, scheduler='CosineAnnealingLR', seed=1337, supervised_loss='EnergyLoss_new', val_set_ratio=0.1, weight_decay=0.0001)
+[21:52:50.408] 42 itertations per epoch
